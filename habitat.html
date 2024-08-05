@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/x-icon" href="img-habitat-savane/2.png" />
+    <title>Le Zoo Arcadia</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--libraries stylesheet-->
+
+
+    <link rel="stylesheet" href="lib/animate/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-sm bg- navbar-">
+        <div class="container-fluid">
+          <div>
+          <a class="navbar-brand" href="accueil.html" style="margin-right:10px ;">
+            <img src="assets/img-habitat-savane/2.png" alt="logo" style="width:80px;" class="rounded-pill"/> 
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"></button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+<a href="accueil.html"class="logo"><span>ZOO </span>ARCADIA</a>
+          
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="navbar-nav">
+<a href="accueil.html">Accueil</a>
+<a href="service.html">Service</a>
+<a href="habitat.html">Habitat</a>
+<a href="contact.html">Contact</a>
+<a href="connexion.html">Connexion</a>
+</div>
+
+</div>
+</ul>  
+
+</a>
+</div>
+
+
+</nav>
+         
+<!---navbar end-->
+
+
+
+ 
+ 
+ 
+ <!---- start main-->
+
+<main role="main" class="habitat">
+
+    <aside class="archives-top-sidebar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-8 offset-sm-2">
+                                       
+                <article id="post-183" class="post-183 page type-page status-publish has-post-thumbnail hentry">
+                        <h2>Plus de 120 espèces à découvrir
+
+                        </h2>
+
+
+                         <p class="has-text-align-center">Le Zoo Arcadia  accueille plus de 1500 animaux appartenant à 120 espèces différentes. Au total Arcadia est un zoo situé en France près de la forêt de Brocéliande, en bretagne depuis 1960.
+                            Ils possèdent tout un panel d’animaux, réparti par habitat (savane, jungle, marais) et font
+                            extrêmement attention à leurs santés. Chaque jour, plusieurs vétérinaires viennent afin
+                            d’effectuer les contrôles sur chaque animal avant l’ouverture du zoo afin de s’assurer que tout
+                            se passe bien, de même, toute la nourriture donnée est calculée afin d’avoir le bon grammage
+                            (le bon grammage est précisé dans le rapport du vétérinaire)..</p>
+                                            
+                        </article>
+                                            
+                    </div>
+
+                    <!---aside----->
+
+            <div class="col-12">
+                <ul class="navbar-wrapper nav nav-pills ">
+                        <li class="animal-maxo-savane">
+
+                            <a href="#maxo-savane" title="Savane" aria-label="Savane" class="btn btn-lg  btn-inversed-primary "> La Savane </a>
+                            
+                        </li>
+                                                       
+                          <li class="animal-maxo-jungle">
+
+                                <a href="#maxo-jungle" title="Jungle" aria-label="Jungle" class="btn btn-lg  btn-inversed-primary ">La Jungle</a>
+                            
+                            </li>
+                                                        
+                            <li class="animal-maxo-marais">
+                                <a href="#maxo-marais" title="Marais" aria-label="Marais" class="btn btn-lg  btn-inversed-primary ">La Marais</a>
+                            </li>
+                                                             
+                        </li>
+                                        
+                    </ul>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!---end aside-->
+
+
+    <!-- section -->
+    <div class="container">
+            <div class="posts-list row">
+                <div class="col-12">
+                    <h1 id="taxo"></h1>
+                </div>
+
+                <section id="habitats-section" class="container">
+                    <h1></h1>
+                    <div id="habitats" class="habitat"></div>
+                </section>
+            
+                <section id="habitat-details-section" class="container habitat-details">
+                    <button id="back-to-habitats">retour aux Habitats</button>
+                    <div id="habitat-description" class="habitat-description"></div>
+                    <div id="animal-details" class="animal-details"></div>
+                </section>
+
+                <!---end section-->
+
+
+                <!-- Post Items -->
+            
+<!----start savane---->
+
+               <div class="col-12">
+                <h1 id="maxo">Savane</h1>
+            </div>
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Lion d'Afrique">
+                <img src="assets/img-habitat-savane/lion (2).jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-lion" decoding="async" loading="lazy" onclick="showDetails('lion-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="lion-details" class="animal-details">
+    <button onclick="hideDetails('lion-details')">Savane</button>
+    <div>
+        <h4>Lion d'Afrique</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Éléphant d’Afrique">
+                <img src="assets/img-habitat-savane/elephant.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-elephant" decoding="async" loading="lazy" onclick="showDetails('elephant-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="elephant-details" class="animal-details">
+    <button onclick="hideDetails('elephant-details')">Savane</button>
+    <div>
+        <h4>Éléphant</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Boa de la savane">
+                <img src="assets/img-habitat-savane/boa2.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-boa" decoding="async" loading="lazy" onclick="showDetails('boa-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="boa-details" class="animal-details">
+    <button onclick="hideDetails('boa-details')">Savane</button>
+    <div>
+        <h4>Boa</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Girafe">
+                <img src="assets/img-habitat-savane/girafes.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-girafe" decoding="async" loading="lazy" onclick="showDetails('girafe-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="girafe-details" class="animal-details">
+    <button onclick="hideDetails('girafe-details')">Savane</button>
+    <div>
+        <h4>Girafe</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Buffles d'Afrique">
+                <img src="assets/img-habitat-savane/buffles.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Buffle-arcadia" decoding="async" loading="lazy" onclick="showDetails('buffles-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="buffles-details" class="animal-details">
+    <button onclick="hideDetails('buffles-details')">Savane</button>
+    <div>
+        <h4>Buffles d'Afrique</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Autruche">
+                <img src="assets/img-habitat-savane/autriche.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-autruche" decoding="async" loading="lazy" onclick="showDetails('autruche-details')">
+            </a>
+        </div>
+    </div>
+</article>
+
+<div id="autruche-details" class="animal-details">
+    <button onclick="hideDetails('autruche-details')">Savane</button>
+    <div>
+        <h4>Autruche</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Hyène">
+                <img src="assets/img-habitat-savane/hyene.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Hyene" decoding="async" loading="lazy" onclick="showDetails('hyene-details')">
+            </a>
+        </div>
+    </div> 
+</article>
+
+<div id="hyene-details" class="animal-details">
+    <button onclick="hideDetails('hyene-details')">Savane</button>
+    <div>
+        <h4>Hyène</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+
+
+<article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+    <div class="inner">
+        <div class="post-thumbnail-wrapper">
+            <a href="#maxo-savane" title="Hyène">
+                <img src="assets/img-habitat-savane/rinoceros1.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Hyene" decoding="async" loading="lazy" onclick="showDetails('rinoceros-details')">
+            </a>
+        </div>
+    </div> 
+</article>
+
+<div id="rinoceros-details" class="animal-details">
+    <button onclick="hideDetails('rinoceros-details-details')">Savane</button>
+    <div>
+        <h4>rinoceros</h4>
+        <p><strong>Prénom:</strong> Leo</p>
+        <p><strong>Race:</strong> Panthera leo</p>
+        <p><strong>État:</strong> En bonne santé</p>
+        <p><strong>Nourriture:</strong> Viande</p>
+        <p><strong>Grammage:</strong> 5 kg</p>
+        <p><strong>Date de passage:</strong> 18/07/2024</p>
+        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+    </div>
+</div>
+                      <!---end savane  -->
+
+
+                <!----start jungle Section ---->
+
+                
+                <div class="col-12">
+                    <h1 id="maxo">Jungle</h1>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Tigre">
+                                <img src="assets/img-habitat-savane/tigre.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Tigre" decoding="async" loading="lazy" onclick="showDetails('Tigre-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Tigre-details" class="animal-details">
+                    <button onclick="hideDetails('Tigre-details')">Jungle</button>
+                    <div>
+                        <h4>Tigre</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Gorille de montagne">
+                                <img src="assets/img-habitat-savane/gorille.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Gorille" decoding="async" loading="lazy" onclick="showDetails('Gorille-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Gorille-details" class="animal-details">
+                    <button onclick="hideDetails('Gorille-details')">Jungle</button>
+                    <div>
+                        <h4>Gorille</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Panda">
+                                <img src="assets/img-habitat-savane/panda (2).jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Panda" decoding="async" loading="lazy" onclick="showDetails('Panda-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Panda-details" class="animal-details">
+                    <button onclick="hideDetails('Panda-details')">Jungle</button>
+                    <div>
+                        <h4>Panda</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Koala">
+                                <img src="assets/img-habitat-savane/koalos.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Koala" decoding="async" loading="lazy" onclick="showDetails('Koala-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Koala-details" class="animal-details">
+                    <button onclick="hideDetails('Koala-details')">Jungle</button>
+                    <div>
+                        <h4>Koala</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Python">
+                                <img src="assets/img-habitat-savane/python.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Python" decoding="async" loading="lazy" onclick="showDetails('Python-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Python-details" class="animal-details">
+                    <button onclick="hideDetails('Python-details')">Jungle</button>
+                    <div>
+                        <h4>Python</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Cameleon">
+                                <img src="assets/img-habitat-savane/cameleon.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Cameleon" decoding="async" loading="lazy" onclick="showDetails('Cameleon-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Cameleon-details" class="animal-details">
+                    <button onclick="hideDetails('Cameleon-details')">Jungle</button>
+                    <div>
+                        <h4>Cameleon</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Perroquet">
+                                <img src="assets/img-habitat-savane/peroke.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Perroquet" decoding="async" loading="lazy" onclick="showDetails('Perroquet-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Perroquet-details" class="animal-details">
+                    <button onclick="hideDetails('Perroquet-details')">Jungle</button>
+                    <div>
+                        <h4>Perroquet</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-jungle" title="Capybara">
+                                <img src="assets/img-habitat-savane/capyaba.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Capybara" decoding="async" loading="lazy" onclick="showDetails('Capbara-details')">
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <div id="Capybara-details" class="animal-details">
+                    <button onclick="hideDetails('Capybara-details')">Jungle</button>
+                    <div>
+                        <h4>Capybara</h4>
+                        <p><strong>Prénom:</strong> Leo</p>
+                        <p><strong>Race:</strong> Panthera leo</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Viande</p>
+                        <p><strong>Grammage:</strong> 5 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+                <!----end jungle-->
+
+                <div class="col-12">
+                    <h1 id="maxo">Marais</h1>
+                </div>
+                <!-- Marais Section Posts -->
+                <div class="container">
+                    <div class="row">
+                        <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                            <div class="inner">
+                                <div class="post-thumbnail-wrapper">
+                                    <a href="#maxo-marais" title="Hibou">
+                                        <img src="assets/img-habitat-savane/hibou2.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Hibou" decoding="async" loading="lazy" onclick="showDetails('Hibou-details')">
+                                    </a>
+                                </div>
+                                <div id="Hibou-details" class="animal-details">
+                                    <button onclick="hideDetails('Hibou-details')">Marais</button>
+                                    <h4>Hibou</h4>
+                                    <p><strong>Prénom:</strong> Leo</p>
+                                    <p><strong>Race:</strong> Panthera leo</p>
+                                    <p><strong>État:</strong> En bonne santé</p>
+                                    <p><strong>Nourriture:</strong> Viande</p>
+                                    <p><strong>Grammage:</strong> 5 kg</p>
+                                    <p><strong>Date de passage:</strong> 18/07/2024</p>
+                                    <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Libellule">
+                                <img src="assets/img-habitat-savane/libellule2.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="libellule" decoding="async" loading="lazy" onclick="showDetails('Libellule-details')">
+                            </a>
+                        </div>
+                        <div id="Libellule-details" class="animal-details">
+                            <button onclick="hideDetails('Libellule-details')">Marais</button>
+                                
+                            <h4>Libellule</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Castor">
+                                <img src="assets/img-habitat-savane/castor-fiber.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Castor" decoding="async" loading="lazy" onclick="showDetails('Castor-details')">
+                            </a>
+                        </div>
+                        <div id="Castor-details" class="animal-details">
+                            <button onclick="hideDetails('Castor-details')">Marais</button>
+                            <h4>Castor</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais"" title="Grande Aigrette">
+                                <img src="assets/img-habitat-savane/aigrette-grand.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Grande Aigrette" decoding="async" loading="lazy"onclick="showDetails('Grande Aigrette-details')">
+                            </a>
+                        </div>
+                        <div id="Grande Aigrette-details" class="animal-details">
+                            <button onclick="hideDetails('Grande Aigrette-details')">Marais</button>
+                            <h4>Grande Aigrette</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Gallinule">
+                                <img src="assets/img-habitat-savane/gallinule3.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Gallinule" decoding="async" loading="lazy" onclick="showDetails('Gallinule-details')">
+                            </a>
+                        </div>
+                        <div id="Gallinule-details" class="animal-details">
+                            <button onclick="hideDetails('Gallinule-details')">Marais</button>
+                        
+                        
+                            <h4>Gallinule</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-Marais" title="Paruline jaune">
+                                <img src="assets/img-habitat-savane/paluli.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Paruline jaune" decoding="async" loading="lazy" onclick="showDetails('Pallinule-details')">
+                            </a>
+                        </div>
+                        <div id="Pallinule-details" class="animal-details">
+                            <button onclick="hideDetails('Pallinule-details')">Marais</button>
+                        
+                       
+                            <h4>Paruline jaune</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+               
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Péluse de Schweigger">
+                                <img src="assets/img-habitat-savane/tortue.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Péluse de Schweigger" decoding="async" loading="lazy" onclick="showDetails('Péluse de Schweigger-details')">
+                            </a>
+                        </div>
+
+                        <div id="Péluse de Schweigger-details" class="animal-details">
+                            <button onclick="hideDetails('Péluse de Schweigger-details')">Marais</button>
+                        
+                            <h4>Péluse de Schweigger</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Loutre">
+                                <img src="assets/img-habitat-savane/loutre (2).jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Loutre" decoding="async" loading="lazy"  onclick="showDetails('Loutre-details')">
+                            </a>
+                        </div>
+                        <div id="Loutre-details" class="animal-details">
+                            <button onclick="hideDetails('Loutre-details')">Marais</button>
+                        
+
+                        
+                            <h4>Loutre</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title=" flamant rose">
+                                <img src="assets/img-habitat-savane/flamand.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt=" flamant rose" decoding="async" loading="lazy"onclick="showDetails('Flamand rose-details')">
+                            </a>
+                        </div>
+                        <div id="Flamand rose-details" class="animal-details">
+                            <button onclick="hideDetails('Flamand rose-details')">Marais</button>
+                        
+                        
+                            <h4> flamant rose</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="Alligator du Mississippi">
+                                <img src="assets/img-habitat-savane/aligator.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="Alligator" decoding="async" loading="lazy" onclick="showDetails('Alligator du Mississippi-details')">
+                            </a>
+                        </div>
+                        <div id="Alligator du Mississippi-details" class="animal-details">
+                            <button onclick="hideDetails('Alligator du Mississippi-details')">Marais</button>
+                        
+                        
+                            <h4>Alligator du Mississippi</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="CAPYBARA">
+                                <img src="assets/img-habitat-savane/capyaba.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="CAPYBARA" decoding="async" loading="lazy"onclick="showDetails('Capybara-details')">
+                            </a>
+                        </div>
+                        <div id="Capybara-details" class="animal-details">
+                            <button onclick="hideDetails('Capybara-details')">Marais</button>
+                        
+                        <div class="post-details-wrapper">
+                            <h4>Capybara</h4>
+                            <p><strong>Prénom:</strong> Leo</p>
+                            <p><strong>Race:</strong> Panthera leo</p>
+                            <p><strong>État:</strong> En bonne santé</p>
+                            <p><strong>Nourriture:</strong> Viande</p>
+                            <p><strong>Grammage:</strong> 5 kg</p>
+                            <p><strong>Date de passage:</strong> 18/07/2024</p>
+                            <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                        </div>
+                    </div>
+                </article>
+               
+                
+                <article class="post col-12 col-sm-6 col-md-4 col-lg-3 post-espece">
+                    <div class="inner">
+                        <div class="post-thumbnail-wrapper">
+                            <a href="#maxo-marais" title="cigogne">
+                                <img src="assets/img-habitat-savane/cigogne.jpg" class="attachment-biop-large size-biop-large wp-post-image" alt="arcadia-elephant" decoding="async" loading="lazy" onclick="showDetails('cigogne-details')">
+                            </a>
+                        </div>
+                    
+                
+                
+                <div id="cigogne-details" class="animal-details">
+                    <button onclick="hideDetails('cigogne-details')">Marais</button>
+                    <div>
+                        <h4>Cigogne</h4>
+                        <p><strong>Prénom:</strong> Dumbo</p>
+                        <p><strong>Race:</strong> Loxodonta africana</p>
+                        <p><strong>État:</strong> En bonne santé</p>
+                        <p><strong>Nourriture:</strong> Herbes</p>
+                        <p><strong>Grammage:</strong> 150 kg</p>
+                        <p><strong>Date de passage:</strong> 18/07/2024</p>
+                        <p><strong>Détails de l'état:</strong> Aucun problème de santé signalé.</p>
+                    </div>
+                </div>
+            </article>
+
+               
+                
+            </div>
+        </div>
+    </section>
+    
+    
+       
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+<!--end main-->
+
+
+
+
+
+<!-----end main-->
+
+
+
+
+
+
+
+
+
+        <!-- Footer  -->
+
+        <footer class="text-center">
+            <div class="container-fluid" id="footer">
+                <div class="row" id="footer1">
+                    <div class="col">
+                        <a target="_blank" href="https://www.instagram.com/"><em class="icon ion-social-instagram"><svg
+                                    xmlns="https://www.w3.org/2000/svg " width="26 " height="26 " fill="currentColor "
+                                    class="bi bi-instagram" viewBox="0 0 16 16 ">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923
+                1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16
+                8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275
+                1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478
+                2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034
+                1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z " />
+                                </svg></em></a>
+                        <a target="_blank" href="https://www.facebook.com/">
+                            <em class="icon ion-social-facebook">
+                                <svg xmlns="https://www.w3.org/2000/svg " width="26" height="26" fill="currentColor "
+                                    class="bi bi-facebook" viewBox="0 0 16 16 ">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354
+                2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z " />
+                                </svg></em></a>
+                        <hr>
+                        <p class="text-center text-black">© 2024 ARCADIA | Mentions légales</p>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
